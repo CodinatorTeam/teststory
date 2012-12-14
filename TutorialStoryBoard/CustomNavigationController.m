@@ -28,6 +28,8 @@
 {
 	[super loadView];
 	
+    
+    ///abc
 
 	//self.navigationBar.tintColor = [UIColor blueColor];
 }
