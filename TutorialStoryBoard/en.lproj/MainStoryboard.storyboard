@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="JWe-jZ-2JY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C2034" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="JWe-jZ-2JY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
@@ -52,12 +52,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.7469974455625743" green="1" blue="0.36702709822592527" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="7e0-WQ-E8p" firstAttribute="leading" secondItem="QAX-8X-Xgl" secondAttribute="leading" type="default" id="IDC-fB-gkq"/>
+                            <constraint firstAttribute="bottom" secondItem="7e0-WQ-E8p" secondAttribute="bottom" constant="186" id="06h-Rf-Xez"/>
+                            <constraint firstItem="QAX-8X-Xgl" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="-7" id="3wd-nR-07R"/>
+                            <constraint firstItem="QAX-8X-Xgl" firstAttribute="top" secondItem="3" secondAttribute="top" constant="294" id="G7r-y9-nvS"/>
                             <constraint firstItem="Z8T-Lz-wwf" firstAttribute="top" secondItem="3" secondAttribute="top" constant="158" id="YXj-V4-K57"/>
                             <constraint firstItem="Z8T-Lz-wwf" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="a42-lz-6N8"/>
-                            <constraint firstItem="7e0-WQ-E8p" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="38" id="b91-CE-O2k"/>
-                            <constraint firstAttribute="bottom" secondItem="QAX-8X-Xgl" secondAttribute="bottom" constant="48" id="lsa-Eo-EVs"/>
-                            <constraint firstAttribute="bottom" secondItem="7e0-WQ-E8p" secondAttribute="bottom" constant="118" id="uBN-Mc-RpR"/>
+                            <constraint firstAttribute="trailing" secondItem="7e0-WQ-E8p" secondAttribute="trailing" constant="52" id="jeb-Ui-qBG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="Bkr-3d-ubd">
@@ -104,7 +104,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pag-S6-Sgu">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="156" id="Kn3-Rh-c04"/>
+                                    <constraint firstAttribute="width" constant="156" id="nkL-fd-bmM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back View">
@@ -121,18 +121,33 @@
                         </subviews>
                         <color key="backgroundColor" red="0.16247548554919478" green="0.87762397438918216" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="PgW-P9-dfd" firstAttribute="leading" secondItem="Ysn-CE-TSj" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="7Ly-ny-V6g"/>
-                            <constraint firstAttribute="bottom" secondItem="Pag-S6-Sgu" secondAttribute="bottom" constant="37" id="7ea-Lq-P92"/>
+                            <constraint firstItem="PgW-P9-dfd" firstAttribute="top" secondItem="Ysn-CE-TSj" secondAttribute="top" constant="176" id="3zn-qr-LWT"/>
+                            <constraint firstItem="PgW-P9-dfd" firstAttribute="leading" secondItem="Ysn-CE-TSj" secondAttribute="leading" constant="56" id="8FU-Va-PiR"/>
+                            <constraint firstItem="Pag-S6-Sgu" firstAttribute="leading" secondItem="Ysn-CE-TSj" secondAttribute="leading" constant="157" id="BQU-bF-tj6"/>
                             <constraint firstItem="wh0-x6-zO2" firstAttribute="top" secondItem="Ysn-CE-TSj" secondAttribute="top" constant="133" id="GMx-hY-8Fb"/>
                             <constraint firstItem="wh0-x6-zO2" firstAttribute="centerX" secondItem="Ysn-CE-TSj" secondAttribute="centerX" type="default" id="IDk-rT-oY2"/>
-                            <constraint firstAttribute="bottom" secondItem="PgW-P9-dfd" secondAttribute="bottom" constant="105" id="hzT-gQ-I86"/>
-                            <constraint firstItem="Pag-S6-Sgu" firstAttribute="leading" secondItem="Ysn-CE-TSj" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ual-zn-7W9"/>
+                            <constraint firstAttribute="bottom" secondItem="Pag-S6-Sgu" secondAttribute="bottom" constant="80" id="Zyh-bv-NjM"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q7e-Te-iye" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1089" y="8"/>
+            <point key="canvasLocation" x="975" y="-224"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Ic-iL-URa">
+            <objects>
+                <viewController id="X6Q-jK-XLj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Coh-bf-S2y">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XsB-Gt-2Lk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3dz-XK-XdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="852"/>
         </scene>
         <!--View Controller - VCon3 -->
         <scene sceneID="MJl-Hr-RKP">
@@ -141,9 +156,28 @@
                     <view key="view" contentMode="scaleToFill" id="Ssi-Ub-3vA">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BT-PV-LKS">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.41057879479999998" green="0.1738011954" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7BT-PV-LKS" secondAttribute="trailing" constant="73" id="NBb-j8-J9q"/>
+                            <constraint firstItem="7BT-PV-LKS" firstAttribute="top" secondItem="Ssi-Ub-3vA" secondAttribute="top" constant="207" id="dPO-eK-ynn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OI8-Uj-XLs"/>
+                    <connections>
+                        <segue destination="X6Q-jK-XLj" kind="push" id="efn-Lm-w1O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Moo-p8-fD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,25 +203,6 @@
             <point key="canvasLocation" x="14" y="8"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="CustomNavigationController" superclassName="UINavigationController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomNavigationController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SecoundViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecoundViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="aaa:"/>
-                <relationship kind="action" name="bbb:"/>
-                <relationship kind="action" name="buttonBackDidTouch:"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
